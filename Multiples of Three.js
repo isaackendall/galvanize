@@ -13,10 +13,5 @@ while (number <= 100) {
 
 console.log('There are ' + multiplesOfThreeCount + ' multiples of 3 between 1 and 100.')
 
-for (let index = 0; index < array.length; index++) {
-  const element = array[index];
-  
-}
-
 /* NOTE: For this challenge to pass all tests, you will have to replace
 the entire `while` loop. Commenting out the `while` loop will not work. */
