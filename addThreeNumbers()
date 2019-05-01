@@ -1,5 +1,13 @@
-function addThreeNumbers(a,b,c) {
-    var sum = a+b+c;
-    console.log(sum);
-}
-addThreeNumbers(1,2,3);
+
+
+
+function addThreeNumbers (inOne, inTwo, inThree) { 
+    var inOne = Number(inOne); 
+    var inTwo = Number(inTwo); 
+    var inThree = Number(inThree); 
+    return Number(inOne + inTwo + inThree); 
+ } 
+//test the function!
+ var x = addThreeNumbers(1, 3, 5);
+console.log(x);
+
