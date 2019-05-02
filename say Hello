@@ -1,0 +1,24 @@
+// Write a function called sayHello.
+function sayHello (language) {
+  var message = '';  
+  if (language == "English") {
+      message = "Hello!";
+
+    } else if (language == "French") {
+      message = "Bonjour";
+      
+      
+    } else if (language == "Spanish") {
+      message = "Hola" 
+        
+    }
+    else {
+      return "Sorry, I do not speak "+language+".";
+    }
+  return message;
+}
+console.log(sayHello("German"));
+
+// sayHello takes one input parameter, the language for the greeting.
+// sayHello returns a greeting following the rules defined above.
+
