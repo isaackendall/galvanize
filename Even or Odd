@@ -1,0 +1,24 @@
+var numArray = [1,2,3,4,-9,];
+
+
+function isLastEvenOdd(numArray) {
+    var last = numArray.slice(-1)[0];
+    if (last % 2 === 0) {
+        return('even');        
+    } else {
+        return('odd');
+    }
+}
+
+isLastEvenOdd(numArray);
+
+/* 
+console.log(numArray);
+var last = numArray.slice(-1)[0];
+console.log(last);
+if (last % 2 === 0) {
+    console.log('even');        
+} else {
+    console.log('odd');
+}
+*/
