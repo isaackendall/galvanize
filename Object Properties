@@ -1,0 +1,13 @@
+function myFunction() {
+
+  // create the object described above
+    var person = {
+
+        firstName: "isaac",
+        lastName: "kendall",
+        ageInYears: 38,
+
+    };
+
+  return person;
+}
