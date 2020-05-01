@@ -1,0 +1,12 @@
+function measureRequiredFruit(fruitTotals) {
+  // if there are more than 3 bananas and more than 10 strawberries
+    // return 'We have enough fruit, with {totalBananas} bananas, and {totalStrawberries} strawberries'
+  // otherwise
+    // return 'We do not have enough of both fruits'
+
+    if (fruitTotals.bananas > 3 && fruitTotals.strawberries > 10) {
+      return "We have enough fruit, with " + fruitTotals.bananas +  " bananas, and " + fruitTotals.strawberries + " strawberries"
+    } else {
+      return 'We do not have enough of both fruits'
+    }
+}
