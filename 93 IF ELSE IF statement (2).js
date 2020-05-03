@@ -1,12 +1,27 @@
 function selectShirtSize(choice) {
   // if shirt is greater than or equal 20 and less than 30
     // return 'You should select a size S'
-  // otherwise if shirt is greater than or equal to 30 and less than 40
+if (choice >= 20 && choice < 30) {
+    return 'You should select a size S';
+  
+  
+    // otherwise if shirt is greater than or equal to 30 and less than 40
     // return 'You should select a size M'
-  // otherwise if shirt is greater than or equal to 40 and less than 50
+} else if (choice >= 30 && choice < 40) {
+    return 'You should select a size M'
+
+// otherwise if shirt is greater than or equal to 40 and less than 50
     // return 'You should select a size L'
-  // otherwise
-    // return 'You should select a different shirt'
+    
+} else  if  (choice >= 40 && choice <= 50) {
+    return 'You should select a size L';
+
+} else {
+    return 'You should select a different shirt';
+
+}
+
+
 }
 
 var result1 = selectShirtSize(25);
