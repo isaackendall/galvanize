@@ -1,0 +1,5 @@
+Complete the function indexOfString. This function will take in two string parameters, 
+and return the index, inside of the first string, where the second string is located. 
+You will want to use the indexOf method for Strings. If string2 
+is not present within string1, your function should return -1.
+
