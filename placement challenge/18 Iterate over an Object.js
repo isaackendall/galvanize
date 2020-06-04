@@ -9,11 +9,13 @@
 function iterateOverObject(obj) {
   // your code here
   for (var key in obj) {
-    console.log('current key:', key);
-    console.log('current value:', obj[key]);
-    //gives context for when each iteration of loop ends
-    // console.log('=============='); 
+    // console.log(key); we are not logging the keys, only the values.
+    console.log(obj[key]); // logging the values.
+    //gives context for when each iteration of loop ends.
+    console.log('=============='); 
       }
   }
-  var output = iterateOverObject(object)
-  const object = { a: 1, b: 2, c: 3 };
+  var object = { a: 1, b: 2, c: 3 };
+  var output = iterateOverObject(object);
+  
+  console.log(output);
